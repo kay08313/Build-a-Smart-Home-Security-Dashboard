@@ -6,7 +6,7 @@ import RequireAuth from "./components/RequireAuth";
 import ErrorPage from "./pages/ErrorPage";
 
 import "./App.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import { useLocalStorage } from "usehooks-ts";
@@ -14,9 +14,10 @@ import { AuthContext } from "./AuthContext";
 
 function App() {
   const [token, setToken] = useLocalStorage("token", null);
+
   return (
     <AuthContext.Provider value={{ token, setToken }}>
-      <BrowserRouter>
+      <Router>
         <Routes>
           <Route index element={<Login />} />
 
@@ -30,7 +31,7 @@ function App() {
           />
           <Route path="*" element={<ErrorPage />} />
         </Routes>
-      </BrowserRouter>
+      </Router>
     </AuthContext.Provider>
   );
 }
