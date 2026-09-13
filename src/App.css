@@ -1,0 +1,84 @@
+body {
+  background-image: url("/storage.PNG");
+  min-height: 100vh;
+  background-size: cover; /* Make it cover the area */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent tiling */
+  margin: 0;
+}
+
+.itemcard-grid {
+  display: flex;
+  flex-direction: row;
+}
+.showcard {
+  background-color: rgba(29, 27, 27, 0.5);
+  border-radius: 10px;
+}
+
+.card-fixed-width {
+  width: 12rem;
+  margin: 10px;
+  padding: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  /* Make card height fill parent */
+}
+.cardtitle {
+  text-align: center;
+}
+.carditem {
+  text-align: center;
+}
+.card-fixed-width .cardimg {
+  flex-grow: 1; /* Image takes available space */
+  object-fit: cover; /* Cover the area without distortion */
+  width: 100%;
+}
+input[type="number"] {
+  width: 60px;
+  padding: 4px;
+  font-size: 1rem;
+  text-align: center;
+}
+.storage {
+  color: rgb(29, 236, 10);
+
+  -webkit-text-stroke: 1px black;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(29, 27, 27, 0.5);
+  border-radius: 10px;
+}
+.logoimg {
+  margin: 20px;
+  width: 250px;
+}
+.my-3 {
+  margin: 10px;
+  font-size: 50px;
+}
+.loginpage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* vertical center */
+  align-items: center; /* horizontal center */
+  height: 100vh; /* full viewport height */
+}
+.loginform {
+  color: aliceblue;
+  margin: 20px;
+  padding: 20px;
+  width: 250px;
+  background-color: rgba(29, 27, 27, 0.5);
+  border-radius: 10px;
+}
+
+.logintitle {
+  font-size: 100px;
+}
