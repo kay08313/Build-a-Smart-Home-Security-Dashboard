@@ -2,6 +2,7 @@ import { useContext, useState } from "react";
 import { Button, Container, Form } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import { AuthContext } from "../AuthContext";
+import loginLogo from "../assets/loginlogo.PNG";
 
 export default function Login() {
   const [username, setUsername] = useState("");
@@ -22,10 +23,7 @@ export default function Login() {
   return (
     <Container className="loginpage">
       <div className="tiltebg">
-        <img
-          src="../../Build-a-Smart-Home-Security-Dashboard/loginlogo.PNG"
-          alt=""
-        />
+        <img src={loginLogo} alt="" />
       </div>
 
       <h1 className="my-3">Login to your account</h1>

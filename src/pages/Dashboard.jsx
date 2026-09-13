@@ -2,6 +2,7 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import { AuthContext } from "../AuthContext";
 import { useContext } from "react";
+import storageLogo from "../assets/storagelogo.PNG";
 
 import products from "../data/householditem.json";
 
@@ -20,11 +21,7 @@ export default function Dashboard() {
   return (
     <Container>
       <div className="storage">
-        <img
-          className="logoimg"
-          src="../../Build-a-Smart-Home-Security-Dashboard/storagelogo.PNG"
-          alt="storagelogo"
-        />
+        <img className="logoimg" src={storageLogo} alt="storagelogo" />
         <h1 className="my-3">My Storage System Dashboard</h1>
         <Button variant="primary" onClick={Logout}>
           Logout
