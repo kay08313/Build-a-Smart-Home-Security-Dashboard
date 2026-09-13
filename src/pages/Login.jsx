@@ -22,7 +22,10 @@ export default function Login() {
   return (
     <Container className="loginpage">
       <div className="tiltebg">
-        <img src="../../loginlogo.PNG" alt="" />
+        <img
+          src="../../Build-a-Smart-Home-Security-Dashboard/loginlogo.PNG"
+          alt=""
+        />
       </div>
 
       <h1 className="my-3">Login to your account</h1>

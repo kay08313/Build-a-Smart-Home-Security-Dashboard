@@ -22,7 +22,7 @@ export default function Dashboard() {
       <div className="storage">
         <img
           className="logoimg"
-          src="../../storagelogo.PNG"
+          src="../../Build-a-Smart-Home-Security-Dashboard/storagelogo.PNG"
           alt="storagelogo"
         />
         <h1 className="my-3">My Storage System Dashboard</h1>
