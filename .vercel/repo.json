@@ -1,0 +1,11 @@
+{
+  "remoteName": "origin",
+  "projects": [
+    {
+      "id": "prj_45vhcuhRsVc5oIHrL9a0DH4GvW14",
+      "name": "build-a-smart-home-security-dashboard",
+      "directory": ".",
+      "orgId": "team_KtkhJtYY7fbrwY9H6D0O5kdT"
+    }
+  ]
+}
