@@ -5,7 +5,7 @@
     "brand": "Royal Gold",
     "place": "Toilet",
     "quantity": 8,
-    "image": "/Build-a-Smart-Home-Security-Dashboard/tissuepaper.PNG"
+    "image": "/tissuepaper.PNG"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "brand": "Royal Gold",
     "place": "Kitchen",
     "quantity": 7,
-    "image": "/Build-a-Smart-Home-Security-Dashboard/salt.PNG"
+    "image": "/salt.PNG"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "brand": "Natural Sunflower",
     "place": "Kitchen",
     "quantity": 4,
-    "image": "/Build-a-Smart-Home-Security-Dashboard/cookingoil.PNG"
+    "image": "/cookingoil.PNG"
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "brand": "Pantene",
     "place": "Bathroom",
     "quantity": 2,
-    "image": "/Build-a-Smart-Home-Security-Dashboard/shampoo.PNG"
+    "image": "/shampoo.PNG"
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@
     "brand": "Colgate",
     "place": "Bathroom",
     "quantity": 6,
-    "image": "/Build-a-Smart-Home-Security-Dashboard/toothpaste.PNG"
+    "image": "/toothpaste.PNG"
   },
   {
     "id": 6,
@@ -45,7 +45,7 @@
     "brand": "Magiclean",
     "place": "Toilet",
     "quantity": 1,
-    "image": "/Build-a-Smart-Home-Security-Dashboard/toiletcleaner.PNG"
+    "image": "/toiletcleaner.PNG"
   },
   {
     "id": 7,
@@ -53,7 +53,7 @@
     "brand": "Top",
     "place": "Laundry",
     "quantity": 1,
-    "image": "/Build-a-Smart-Home-Security-Dashboard/detergent.PNG"
+    "image": "/detergent.PNG"
   },
   {
     "id": 8,
@@ -61,6 +61,6 @@
     "brand": "Downy",
     "place": "Toilet",
     "quantity": 9,
-    "image": "/Build-a-Smart-Home-Security-Dashboard/conditioner.PNG"
+    "image": "/conditioner.PNG"
   }
 ]
