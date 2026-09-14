@@ -21,7 +21,11 @@ export default function Dashboard() {
   return (
     <Container>
       <div className="storage">
-        <img className="logoimg" src={storageLogo} alt="storagelogo" />
+        <div className="toplogo">
+          <img className="logoimg" src={storageLogo} alt="storagelogo" />
+          <h1 className="logoname">AEKI</h1>
+        </div>
+
         <h1 className="my-3">My Storage System Dashboard</h1>
         <Button variant="primary" onClick={Logout}>
           Logout

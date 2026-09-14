@@ -82,3 +82,17 @@ input[type="number"] {
 .logintitle {
   font-size: 100px;
 }
+.toplogo {
+  display: flex;
+  flex-direction: row;
+}
+
+.logoname {
+  color: gold;
+  font-size: 100px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.loginimage {
+  width: 25rem;
+}

@@ -23,7 +23,7 @@ export default function Login() {
   return (
     <Container className="loginpage">
       <div className="tiltebg">
-        <img src={loginLogo} alt="" />
+        <img className="loginimage" src={loginLogo} alt="" />
       </div>
 
       <h1 className="my-3">Login to your account</h1>
